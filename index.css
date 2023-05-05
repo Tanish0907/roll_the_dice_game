@@ -1,0 +1,86 @@
+:root {
+    --font1: UNIVERSIDAD PERSONAL USE;
+    --font2: Joystix;
+    --primary_color: rgba(172, 0, 0, 0.863);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 20px;
+    background-color: rgb(51, 61, 70);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-family: var(--font1);
+    color: var(--primary_color);
+    filter: drop-shadow(0 0 10px);
+    font-size: xxx-large;
+    width: 100vw;
+    text-align: center;
+    margin: 50px;
+}
+
+
+.who_won {
+    font-family: var(--font2);
+    color: var(--primary_color);
+    filter: drop-shadow(0 0 10px);
+    font-size: xxx-large;
+    width: 100vw;
+    text-align: center;
+    margin: 50px;
+}
+
+.dice {
+    width: 100vw;
+    height: 45vh;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center
+}
+
+.dice>.d1,
+.dice>.d2 {
+    height: 100%;
+    width: 40%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-size: xx-large;
+    font-family: var(--font2);
+    color: var(--primary_color);
+
+}
+
+.dice img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 50%;
+}
+
+.roll {
+
+    border: none;
+    height: 70px;
+    width: 160px;
+    border-radius: 50px;
+    font-size: xx-large;
+    font-family: var(--font2);
+    background-color: var(--primary_color);
+    color: white;
+}
