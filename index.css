@@ -1,5 +1,11 @@
-@import "./assets/joystix/joystix\ monospace.otf";
-@import "./assets/universidad-personal-use/UNIVERSIDAD\ PERSONAL\ USE.ttf";
+@font-face{
+    font-family: joystix;
+    src:url("./assets/joystix/joystix\ monospace.otf") format("opentype")
+}
+@font-face{
+    font-family: joystix;
+    src:url("./assets/universidad-personal-use/UNIVERSIDAD\ PERSONAL\ USE.ttf") format("truetype")
+}
 :root {
     --font1: UNIVERSIDAD PERSONAL USE;
     --font2: Joystix;
